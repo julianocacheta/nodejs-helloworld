@@ -1,0 +1,7 @@
+---
+applications:
+- name: HELLOZAPNODEJS
+  host: HELLOZAPNODEJS
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
